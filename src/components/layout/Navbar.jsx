@@ -25,7 +25,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                 <div className={`relative flex items-center justify-between p-4 lg:p-6 transition-all duration-500 rounded-[2.5rem] border transform-gpu ${scrolled ? 'glass-card border-slate-300 dark:border-white/10 shadow-2xl' : 'bg-transparent border-transparent'}`}>
                     <div className="flex items-center gap-3 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                         <img 
-                            src="/logo.png" 
+                            src="logo.png" 
                             alt="Core Mesh" 
                             className="h-10 w-auto group-hover:scale-105 transition-transform duration-500 object-contain drop-shadow-[0_0_15px_rgba(59,130,246,0.3)]"
                         />

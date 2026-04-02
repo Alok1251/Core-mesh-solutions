@@ -52,7 +52,7 @@ function App() {
           >
             {/* Pulsing ring around logo */}
             <div className="absolute -inset-10 bg-primary/10 rounded-full blur-[40px] animate-pulse-slow"></div>
-            <img src="/logo.png" alt="Core Mesh" className="w-24 h-24 object-contain relative z-10" />
+            <img src="logo.png" alt="Core Mesh" className="w-24 h-24 object-contain relative z-10" />
           </motion.div>
 
           <div className="flex flex-col items-center gap-6 text-center max-w-sm">

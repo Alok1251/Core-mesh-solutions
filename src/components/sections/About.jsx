@@ -106,7 +106,7 @@ const About = () => {
                                 <div className="relative flex flex-col items-center justify-center text-center uppercase tracking-tight font-display gap-6">
                                     <div className="w-20 h-20 flex items-center justify-center p-2 relative">
                                         <div className="absolute inset-0 bg-primary/5 rounded-full blur-[20px] animate-pulse"></div>
-                                        <img src="/logo.png" alt="CM" className="w-full h-auto object-contain relative z-10 drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]" />
+                                        <img src="logo.png" alt="CM" className="w-full h-auto object-contain relative z-10 drop-shadow-[0_0_20px_rgba(59,130,246,0.3)]" />
                                     </div>
                                     <p className="text-2xl lg:text-3xl font-black text-[var(--foreground)] leading-[1.1] text-gradient">HIGH-SCALE <br/><span className="text-accent italic">INFRA</span></p>
                                 </div>

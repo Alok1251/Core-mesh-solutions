@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="lg:col-span-5 flex flex-col gap-8">
                     <div className="flex items-center gap-4 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                         <img 
-                            src="/logo.png" 
+                            src="logo.png" 
                             alt="Core Mesh Logo" 
                             className="h-14 w-auto group-hover:scale-105 transition-transform duration-500 object-contain drop-shadow-[0_0_15px_rgba(59,130,246,0.2)]"
                         />
